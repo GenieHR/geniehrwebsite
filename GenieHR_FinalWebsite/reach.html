@@ -1,0 +1,434 @@
+﻿
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
+<html lang="en">
+<head>
+
+    <!-- Basic -->
+    <title>GenieHR | Reach</title>
+
+    <!-- Define Charset -->
+    <meta charset="utf-8">
+
+    <!-- Responsive Metatag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Page Description and Author -->
+    <meta name="description" content="Margo - Responsive HTML5 Template">
+    <meta name="author" content="iThemesLab">
+
+
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+
+
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.migrate.js"></script>
+    <script type="text/javascript" src="js/modernizrr.js"></script>
+    <script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/count-to.js"></script>
+    <script type="text/javascript" src="js/jquery.textillate.js"></script>
+    <script type="text/javascript" src="js/jquery.lettering.js"></script>
+    <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+
+
+    <style>
+         #map-canvas {
+            margin: 0;
+        padding: 0;
+        height: 100%;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script>
+        function initialize() {
+            var myLatlng = new google.maps.LatLng(28.6275325, 77.27940690000003);
+            var mapOptions = {
+                zoom: 16,
+                center: myLatlng
+            }
+            var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title: 'Genie HR Solutions'
+            });
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Container -->
+    <div id="container">
+
+        <!-- Start Header -->
+        <div class="hidden-header"></div>
+        <header class="clearfix">
+
+            <!-- Start Top Bar -->
+            <div class="top-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- Start Contact Info -->
+                            <ul class="contact-details">
+                                <li>
+                                    <a href="#"><i class="fa fa-map-marker"></i> WA-121/20,  Shakarpur, Delhi</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-envelope-o"></i> corporate@geniehr.com</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-phone"></i> +919810861366, +919958802692</a>
+                                </li>
+                            </ul>
+                            <!-- End Contact Info -->
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Start Social Links -->
+                            <ul class="social-list">
+                                <li>
+                                    <a class="facebook itl-tooltip" data-placement="bottom" target="_blank" title="Facebook" href="https://www.facebook.com/geniehr"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a class="twitter itl-tooltip" data-placement="bottom" target="_blank" title="Twitter" href="https://twitter.com/genie_hr"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a class="google itl-tooltip" data-placement="bottom" target="_blank" title="Google Plus" href="https://plus.google.com/b/103831758356651163564"><i class="fa fa-google-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a class="linkdin itl-tooltip" data-placement="bottom" target="_blank" title="Linkedin" href="https://www.linkedin.com/company/geniehr-solutions"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                            <!-- End Social Links -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Top Bar -->
+            <!-- Start Header ( Logo & Naviagtion ) -->
+            <div class="navbar navbar-default navbar-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!-- Stat Toggle Nav Link For Mobiles -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <!-- End Toggle Nav Link For Mobiles -->
+                        <a href="index.html"><img alt="" src="images/Genie-Logo-small.png"></a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <!-- Stat Search -->
+                        <div class="search-side">
+                            <a href="#" class="show-search"><i class="fa fa-search"></i></a>
+                            <div class="search-form">
+                                <form autocomplete="off" role="search" method="get" class="searchform" action="#">
+                                    <input type="text" value="" name="s" id="s" placeholder="Search the site...">
+                                </form>
+                            </div>
+                        </div>
+                        <!-- End Search -->
+                        <!-- Start Navigation List -->
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="index.html">Home</a>
+
+                            </li>
+                            
+                            <li>
+                                <a href="service.html">Services</a>
+
+                            </li>
+                            <li>
+                                <a href="why.html">Why GenieHR?</a>
+
+                            </li>
+                            <li>
+                                <a class="active" href="reach.html">Reach Us</a>
+
+                            </li>
+                        </ul>
+                        <!-- End Navigation List -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Header ( Logo & Naviagtion ) -->
+
+            <div class="page-banner no-subtitle">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Our Office Locations</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="breadcrumbs">
+                                <li><a href="index.html">Home</a></li>
+                                <li>Addresses</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- End Header -->
+        <!-- Start Content -->
+        <div id="content">
+            <div class="container">
+                
+                <div class="tabs-section">
+
+                    <!-- Nav Tabs -->
+                    <ul class="nav nav-tabs nav-justified">
+                        <li class="active"> <a href="#tab-1" data-toggle="tab">Registered Office</a></li>
+                        <li>                <a href="#tab-2" data-toggle="tab">North Zone</a></li>
+                        <li>                <a href="#tab-3" data-toggle="tab">West Zone</a></li>
+                        <li>                <a href="#tab-4" data-toggle="tab">South Zone</a></li>
+                        <li>                <a href="#tab-5" data-toggle="tab">International</a></li>
+                    </ul>
+                    <!-- End Nav Tabs -->
+
+                    <!-- Tab panels -->
+                    <div class="tab-content">
+
+                        <!-- Tab Content 1 -->
+                        <div id="tab-1" class="tab-pane fade in active">
+                            <div class="row">
+
+                                <div class="col-lg-6 col-sm-12 col-md-6 animated infinite fadeInDown">
+
+                                    <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix animated infinite fadeInDown">
+
+                                        <h2>GenieHR Solutions Pvt. Ltd.</h2>
+                                        <br />
+                                        <h4>WA - 121/20, Shakarpur</h4>
+                                        <h4>New Delhi - 110092</h4>
+                                        <br />
+                                        Contact Person: <strong>Vibhor Mathreja</strong>
+                                        <br />
+                                        <br />
+                                        Email: <strong>corporate@geniehr.com</strong>
+                                        <br />
+                                        Phone: <strong>+919810861366, +919958802692</strong>
+                                        <br />
+                                        <br />
+
+
+                                    </div>
+
+                                </div>
+
+
+                                        <div id="map-canvas" style="height:280px" class="col-lg-6 col-sm-12 col-md-6 animated infinite fadeInDown"></div>
+
+                                </div>
+
+                            </div>
+                        
+                        <!-- Tab Content 2 -->
+                        <div id="tab-2" class="tab-pane fade">
+                            <div class="row">
+
+                                <div class="col-lg-6 col-sm-12 col-md-6 animated infinite fadeInDown">
+
+                                    <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix animated infinite fadeInDown">
+
+                                        <h2>GenieHR Solutions Pvt. Ltd.</h2>
+                                        <br />
+                                        <h4>WA - 121/20, Shakarpur</h4>
+                                        <h4>New Delhi - 110092</h4>
+                                        <br />
+                                        Contact Person: <strong>Vibhor Mathreja</strong>
+                                        <br />
+                                        <br />
+                                        Email: <strong>corporate@geniehr.com</strong>
+                                        <br />
+                                        Phone: <strong>+919810861366, +919958802692</strong>
+                                        <br />
+                                        <br />
+
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-6 col-sm-12 col-md-6 animated infinite fadeInDown">
+
+                                    <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix animated infinite fadeInDown">
+
+                                        <h2>GenieHR Solutions Pvt. Ltd.</h2>
+                                        <br />
+                                        <h4>D -38, Industrial Area Phase 1</h4>
+                                        <h4>Mohali - 160055</h4>
+                                        <br />
+                                        Contact Person: <strong>Preeti Negi</strong>
+                                        <br />
+                                        <br />
+                                        Email: <strong>preeti.negi@geniehr.com</strong>
+                                        <br />
+                                        Phone: <strong>+91 9356655896</strong>
+                                        <br />
+                                        <br />
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Tab Content 3 -->
+                        <div class="tab-pane fade" id="tab-3">
+                            <div class="row">
+
+                                <div class="col-lg-6 col-sm-12 col-md-6 animated infinite fadeInDown">
+
+                                    <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix animated infinite fadeInDown">
+
+                                        <h2>GenieHR Solutions Pvt. Ltd.</h2>
+                                        <br />
+                                        <h4>27, Sainath Industrial Estate</h4>
+                                        <h4>Mahakali Caves Road, Andheri East, Mumbai - 400 093</h4>
+                                        <br />
+                                        Contact Person: <strong>Vibhor Mathreja</strong>
+                                        <br />
+                                        <br />
+                                        Email: <strong>corporate@geniehr.com</strong>
+                                        <br />
+                                        Phone: <strong>+919810861366, +919958802692</strong>
+                                        <br />
+                                        <br />
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-6 col-sm-12 col-md-6 animated infinite fadeInDown">
+                                    <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix animated infinite fadeInDown">
+
+                                        <h2>GenieHR Solutions Pvt. Ltd.</h2>
+                                        <br />
+                                        <h4>253/254</h4>
+                                        <h4>GIDC, Phase-1, Mehsana - 384 002</h4>
+                                        <br />
+                                        Contact Person: <strong>Vibhor Mathreja</strong>
+                                        <br />
+                                        <br />
+                                        Email: <strong>corporate@geniehr.com</strong>
+                                        <br />
+                                        Phone: <strong>+919810861366, +919958802692</strong>
+                                        <br />
+                                        <br />
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Tab Content 4 -->
+                        <div class="tab-pane fade in " id="tab-4">
+                            <div class="row">
+
+                                <div class="col-lg-6 col-sm-12 col-md-6 animated infinite fadeInDown">
+
+                                    <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix animated infinite fadeInDown">
+
+                                        <h2>GenieHR Solutions Pvt. Ltd.</h2>
+                                        <br />
+                                        <h4>001, 4th Floor</h4>
+                                        <h4>Pritam Hospital Building, OU Colony, Manikonda, Hyderabad - 500 089</h4>
+                                        <br />
+                                        Contact Person: <strong>Vibhor Mathreja</strong>
+                                        <br />
+                                        <br />
+                                        Email: <strong>corporate@geniehr.com</strong>
+                                        <br />
+                                        Phone: <strong>+919810861366, +919958802692</strong>
+                                        <br />
+
+                                    </div>
+
+                                </div>
+
+                                
+
+                            </div>
+                        </div>
+                        <!-- Tab Content 5 -->
+                        <div class="tab-pane fade in " id="tab-5">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-12 col-md-6 animated infinite fadeInDown">
+                                    <div class="call-action call-action-boxed call-action-style1 no-descripton clearfix animated infinite fadeInDown">
+
+                                        <h2>GenieHR Solutions Pvt. Ltd.</h2>
+                                        <br />
+                                        <h4>9611</h4>
+                                        <h4>Ardrey Woods Drive, Charlotte, North Carolina- 28277</h4>
+                                        <br />
+                                        Contact Person: <strong>Vibhor Mathreja</strong>
+                                        <br />
+                                        <br />
+                                        Email: <strong>corporate@geniehr.com</strong>
+                                        <br />
+                                        Phone: <strong>+919810861366, +919958802692</strong>
+                                        <br />
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                             </div>
+                    </div>
+                    <!-- End Tab Panels -->
+
+                </div>
+            </div>
+        </div>
+        <!-- End Content -->
+        <!-- Start Footer -->
+        <footer></footer>
+        <!-- End Footer -->
+
+    </div>
+    <!-- End Container -->
+
+    <!-- Go To Top Link -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
