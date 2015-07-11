@@ -57,17 +57,74 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="asset\css\bootstrap-theme.css" />
+    <Content Include="asset\css\bootstrap-theme.min.css" />
+    <Content Include="asset\css\bootstrap.css" />
+    <Content Include="asset\css\bootstrap.min.css" />
+    <Content Include="asset\js\bootstrap.js" />
+    <Content Include="asset\js\bootstrap.min.js" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\colors\green.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\liteaccordion.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\DALEK1-bg.png" />
+    <Content Include="fonts\DALEK1-thumb.png" />
+    <Content Include="fonts\DALEK1.png" />
+    <Content Include="fonts\font.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\Genie-Logo-small.png" />
+    <Content Include="images\slide-02-bg.jpg" />
+    <Content Include="images\slides\Slide1.jpg" />
+    <Content Include="images\slides\Slide2.jpg" />
+    <Content Include="images\slides\Slide3.jpg" />
+    <Content Include="images\slides\Slide4.jpg" />
+    <Content Include="images\slides\Slide5.jpg" />
     <Content Include="index.html" />
     <Content Include="reach.html" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="fonts\DALEK1.eot" />
+    <Content Include="fonts\DALEK1.ttf" />
+    <Content Include="fonts\DALEK1.woff" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="asset\css\bootstrap-theme.css.map" />
+    <Content Include="asset\css\bootstrap.css.map" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\knockout-2.3.0.debug.js" />
+    <Content Include="Scripts\knockout-2.3.0.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <None Include="Scripts\_references.js" />
     <Content Include="service.html" />
     <Content Include="Web.config" />
     <Content Include="why.html" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,6 +132,10 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="website.publishproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
